@@ -17,7 +17,7 @@ As a Solutions Engineer you are tasked with building a PoC (Proof of Concept) th
 > 3) here !! :) https://github.com/Vladlerena/Pizza42new
 
 1. Show how a new customer can sign up and an existing customer can sign in with email/password or Google
-> I've included the as a SPA called my first app from Vlad in my free account tenant in Auth0
+> I've included the as a SPA called _my first app from Vlad_ in my free account tenant in Auth0.
     
 2. Ensure that if a customer signs in with either an email/password or Google, it will be treated as the same user if they use the same email address
 > inside of the connections options of the App in Auth0 tenant I activated _Username-Password-Authentication and google-oauth2_.
