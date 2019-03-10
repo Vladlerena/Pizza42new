@@ -26,7 +26,7 @@ As a Solutions Engineer you are tasked with building a PoC (Proof of Concept) th
 > Inside of the quick start of the Applications option of my tenant in Auth0, I've chosen the SPA for JavaScript then I've based my app in the GitHub repository offered in the Auth0 site.
 
 4. Require that a customer has a verified email address before they can place a pizza order, ​but they should still be able to sign into the app​.
-> Inside of the Database option of the tenant in the Auth0 site, you can diable the sing ups for the selected Applications, I've lest unchecked, as default, so users be able not only login, but also sing up for the site.
+> Inside of the Database option of the tenant in the Auth0 site, you can diable the sing ups for the selected Applications, I've let unchecked, as default, so users be able not only login, but also sing up for the site.
 
 5. Use Auth0 features to gather additional information about a user (specifically their gender) without prompting them directly.
 > Inside of the options for connections, regarding the application used in this exercise, I activated in the OAuth2 profile the Google+ permission for the app, the gender data is public available for google users that has an active Google+ profile, if the users do not have a Google+ active account this information would not be populated in the JWT. I've check this wiith the _try_ option inside of the social connections tab of the Auth0 portal.
