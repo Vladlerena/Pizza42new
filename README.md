@@ -1,4 +1,4 @@
-# Auth0 JavaScript Login (Vladimiro Lerena's version)
+# Auth0 Pizza42 Login (Vladimiro Lerena's version)
 
 Based on the public repository by Auth0, I prepared forked version in order to include to a standard php/html page the authentication with Auth0 with Google and suer and password:
 
