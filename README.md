@@ -14,7 +14,7 @@ As a Solutions Engineer you are tasked with building a PoC (Proof of Concept) th
 
 > 1) Working application in Heroku --> https://vladlerena.herokuapp.com
 > 2) Go the site and click in log in, then choose to login or sing up with Google or with user and password.
-> 3) here !! :)
+> 3) here !! :) https://github.com/Vladlerena/Pizza42new
 
 1. Show how a new customer can sign up and an existing customer can sign in with email/password or Google
 > I've included the as a SPA called my first app from Vlad in my free account tenant in Auth0
