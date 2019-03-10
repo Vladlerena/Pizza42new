@@ -12,9 +12,9 @@ To show us what you can do, you’re going to get a chance to build a real solut
 # Solution
 As a Solutions Engineer you are tasked with building a PoC (Proof of Concept) that shows how Pizza 42 could solve the above use case, leveraging the Auth0 identity platform. Your solution will need to demonstrate the following:
 
-1) Working application in Heroku --> https://vladlerena.herokuapp.com
-2) Go the site and click in log in, then choose to login or sing up with Google or with user and password.
-3) here !! :)
+> 1) Working application in Heroku --> https://vladlerena.herokuapp.com
+> 2) Go the site and click in log in, then choose to login or sing up with Google or with user and password.
+> 3) here !! :)
 
 1. Show how a new customer can sign up and an existing customer can sign in with email/password or Google
 > I've included the as a SPA called my first app from Vlad in my free account tenant in Auth0
