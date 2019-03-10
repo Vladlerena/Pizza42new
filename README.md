@@ -1,80 +1,25 @@
-# Auth0 JavaScript Login
+# Auth0 JavaScript Login (Vladimiro Lerena's version)
 
-This sample demonstrates how to add authentication to a JavaScript application with Auth0. The sample makes use of Auth0's hosted login page which provides centralized authentication.
+Based on the public repository by Auth0, I prepared forked version in order to include to a standard php/html page the authentication with Auth0 with Google and suer and password:
 
-## Getting Started
+# Solutions Engineer
+Tech Challenge Instructions
 
-If you haven't already done so, [sign up](https://auth0.com) for your free Auth0 account and create a new client in the [dashboard](https://manage.auth0.com). Find the **domain** and **client ID** from the settings area and add the URL for your application to the **Allowed Callback URLs** box. If you are serving the application with the provided `serve` library, that URL is `http://localhost:3000`.
+# Overview
+Welcome to the tech challenge for the Auth0 Solutions Engineer role!
+To show us what you can do, you’re going to get a chance to build a real solution that leverages the Auth0 identity platform. Your solution must solve the business ​Use Case​​ given below, delivering the specific features in the ​Solution​​ section. Oh, and be sure to check out the ​FAQ section at the end for answers to important questions.
 
-Clone the repo or download it from the JavaScript quickstart page in Auth0's documentation.
+# Solution
+As a Solutions Engineer you are tasked with building a PoC (Proof of Concept) that shows how Pizza 42 could solve the above use case, leveraging the Auth0 identity platform. Your solution will need to demonstrate the following:
 
-```bash
-cd 01-Login
-npm install
-```
-
-## Set the Client ID and Domain
-
-If you download the sample from the quickstart page, it will come pre-populated with the **client ID** and **domain** for your application. If you clone the repo directly from Github, rename the `auth0-variables.js.example` file to `auth0-variables.js` and provide the **client ID** and **domain** there.
-
-## Run the Application
-
-The `serve` module provided with this sample can be run with the `start` command.
-
-```bash
-npm start
-```
-
-The application will be served at `http://localhost:3000`.
-
-## Run the Application With Docker
-
-In order to run the example with docker you need to have `docker` installed.
-
-You also need to set the environment variables as explained [previously](#set-the-client-id-and-domain).
-
-Execute in command line `sh exec.sh` to run the Docker in Linux, or `.\exec.ps1` to run the Docker in Windows.
-
-## Running the Tests
-
-**Pre-Conditions:**
-- Make sure you meet the requirements detailed in the [auth0-quickstarts-tester](https://www.npmjs.com/package/auth0-quickstarts-tester#requirements) package. Python, CasperJS, PhantomJS and Docker Desktop must be installed in your host.
-- Edit the `auth0-variables.js.example` file adding your own credentials. Rename the file to `auth0-variables.js`.
-- Edit the `test.js` file and set a valid pair of `user` and `password` credentials, used to log in into the app.
-
-Run the test:
-
-```bash
-npm test
-```
-
-## What is Auth0?
-
-Auth0 helps you to:
-
-* Add authentication with [multiple authentication sources](https://docs.auth0.com/identityproviders), either social like **Google, Facebook, Microsoft Account, LinkedIn, GitHub, Twitter, Box, Salesforce, among others**, or enterprise identity systems like **Windows Azure AD, Google Apps, Active Directory, ADFS or any SAML Identity Provider**.
-* Add authentication through more traditional **[username/password databases](https://docs.auth0.com/mysql-connection-tutorial)**.
-* Add support for **[linking different user accounts](https://docs.auth0.com/link-accounts)** with the same user.
-* Support for generating signed [Json Web Tokens](https://docs.auth0.com/jwt) to call your APIs and **flow the user identity** securely.
-* Analytics of how, when and where users are logging in.
-* Pull data from other sources and add it to the user profile, through [JavaScript rules](https://docs.auth0.com/rules).
-
-## Create a free Auth0 account
-
-1. Go to [Auth0](https://auth0.com/signup) and click Sign Up.
-2. Use Google, GitHub or Microsoft Account to login.
-
-## Issue Reporting
-
-If you have found a bug or if you have a feature request, please report them at this repository issues section. Please do not report security vulnerabilities on the public GitHub issue tracker. The [Responsible Disclosure Program](https://auth0.com/whitehat) details the procedure for disclosing security issues.
-
-## Author
-
-[Auth0](https://auth0.com)
-
-## License
-
-This project is licensed under the MIT license. See the [LICENSE](LICENSE.txt) file for more info.
-
+1. Show how a new customer can sign up and an existing customer can sign in with email/password or Google
+    . I've included the as a SPA called my first app from Vlad in my free account tenant in Auth0
+    
+2. Ensure that if a customer signs in with either an email/password or Google, it will be treated as the same user if they use the same email address
+    . 
+3. Show that the solution can be built as a “modern” web application (SPA) which can then securely call the API backend of Pizza 42 using OAuth.
+4. Require that a customer has a verified email address before they can place a pizza order, ​but they should still be able to sign into the app​.
+5. Use Auth0 features to gather additional information about a user (specifically their gender) without prompting them directly.
+6. Use Auth0 to call the Google People API to fetch the total number of Google connections a user has and store that count in their user profile.
 
 
