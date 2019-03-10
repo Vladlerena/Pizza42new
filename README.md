@@ -32,5 +32,6 @@ As a Solutions Engineer you are tasked with building a PoC (Proof of Concept) th
 > Inside of the options for connections, regarding the application used in this exercise, I activated in the OAuth2 profile the Google+ permission for the app, the gender data is public available for google users that has an active Google+ profile, if the users do not have a Google+ active account this information would not be populated in the JWT. I've check this wiith the _try_ option inside of the social connections tab of the Auth0 portal.
 
 6. Use Auth0 to call the Google People API to fetch the total number of Google connections a user has and store that count in their user profile.
-> My understanding is that the is reflected in the logs for of the users that decided to log in with google credential into the app.
+> My understanding is that this is reflected in the logs for of the users that decided to log in with google credential into the app.
 
+...END
